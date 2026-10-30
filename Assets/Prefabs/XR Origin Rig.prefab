@@ -2991,6 +2991,7 @@ GameObject:
   - component: {fileID: 7937913661681092754}
   - component: {fileID: 7790875787806750635}
   - component: {fileID: 7671035443056531347}
+  - component: {fileID: 7603026292123112497}
   m_Layer: 0
   m_Name: Right Hand Controller
   m_TagString: Untagged
@@ -3318,6 +3319,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &7603026292123112497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4635863666012671877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a81e3642b89ae4443baad45ab1eae349, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UntrackedRayHider
+  head: {fileID: 776990662339014338}
+  minDistance: 0.08
 --- !u!1 &4678048838303005332
 GameObject:
   m_ObjectHideFlags: 0
@@ -3830,6 +3845,7 @@ GameObject:
   - component: {fileID: 2265978156264837420}
   - component: {fileID: 8104959577016186125}
   - component: {fileID: 1690505914173828447}
+  - component: {fileID: 1431660988324286714}
   m_Layer: 0
   m_Name: Left Hand Controller
   m_TagString: Untagged
@@ -4158,6 +4174,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1431660988324286714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5369295936886630479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a81e3642b89ae4443baad45ab1eae349, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UntrackedRayHider
+  head: {fileID: 776990662339014338}
+  minDistance: 0.08
 --- !u!1 &5861297356632907409
 GameObject:
   m_ObjectHideFlags: 0
