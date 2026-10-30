@@ -23,7 +23,7 @@ Build order: Start, Joshua Room, VR Room Station.
 
 | Input | Action |
 | --- | --- |
-| Grip | Grab objects, the door handle and the projector |
+| Grip | Grab objects, the doorknob and the projector |
 | Trigger | Select UI, activate held objects (TV remote) |
 | Left thumbstick | Smooth turn |
 | Right thumbstick | Snap turn |
@@ -35,7 +35,7 @@ Build order: Start, Joshua Room, VR Room Station.
 
 - Object grabbing: Station > Interactables (boxes, tubes, containers, chess pieces, mug, flashlight, pillows, statues). Living Room > DYNAMIC (ball, racket, hats, remote).
 - Sockets: Station > SOCKETS. Chess Square Sockets accept the Chess layer, Flashlight Socket accepts the Flashlight layer, Mug Socket accepts the Mug layer.
-- Physics door: Station > Level > GlassDoor > glass_panel_1_door (Rigidbody, HingeJoint, XRGrabInteractable on the two handles, DoorCreak).
+- Physics door: Station > Level > GlassDoor > glass_panel_1_door (Rigidbody, HingeJoint, XRGrabInteractable on the doorknob, DoorCreak).
 - Start UI: Start > INTERFACE > Start Canvas.
 - In-project UI: the Signal Ring Menu on the left controller in every scene, plus the Objectives Board and tooltips in the Station.
 - Wall clock: Station > Wall Clock (AnalogClock and DigitalClock).
