@@ -1465,7 +1465,7 @@ GameObject:
   m_Component:
   - component: {fileID: 501463426}
   m_Layer: 0
-  m_Name: ===DYNAMIC==========
+  m_Name: DYNAMIC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3120,7 +3120,7 @@ GameObject:
   m_Component:
   - component: {fileID: 948414685}
   m_Layer: 0
-  m_Name: ===XR==========
+  m_Name: XR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3512,7 +3512,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1151933881}
   m_Layer: 0
-  m_Name: ===STATIC==========
+  m_Name: STATIC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3543,7 +3543,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1155486700}
   m_Layer: 0
-  m_Name: ===LIGHTING==========
+  m_Name: LIGHTING
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3574,7 +3574,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1181458098}
   m_Layer: 0
-  m_Name: ===INTERFACE==========
+  m_Name: INTERFACE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
