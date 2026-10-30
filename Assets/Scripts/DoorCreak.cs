@@ -7,6 +7,7 @@ public class DoorCreak : MonoBehaviour
     [SerializeField] AudioSource latchSource;
     [SerializeField] float creakSpeedThreshold = 15f;
     [SerializeField] float closedAngle = 2f;
+    [SerializeField] Collider[] frameColliders;
 
     HingeJoint hinge;
     bool wasOpen;
@@ -17,6 +18,10 @@ public class DoorCreak : MonoBehaviour
     void Awake()
     {
         hinge = GetComponent<HingeJoint>();
+        Collider[] doorColliders = GetComponentsInChildren<Collider>();
+        foreach (Collider frame in frameColliders)
+            foreach (Collider part in doorColliders)
+                Physics.IgnoreCollision(frame, part);
     }
 
     void Update()
