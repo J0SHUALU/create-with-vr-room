@@ -7,13 +7,19 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/Start.unity
-    guid: 00000000000000000000000000000000
+    guid: 512d05ee99a924e5ca58ebc227991bc7
   - enabled: 1
     path: Assets/Scenes/Joshua Room.unity
     guid: 27db7de597d97c24fb816fd22b8ecb07
   - enabled: 1
     path: Assets/Scenes/VR Room Station.unity
     guid: 5de3b08e569c84b45b9ee9e6beaf4625
+  - enabled: 1
+    path: Assets/Scenes/VR Dev Testing.unity
+    guid: 726dbf147920f4f71849b9fcc6d82a45
+  - enabled: 1
+    path: Assets/Escape Room/Scenes/VREscapeRoom_Start.unity
+    guid: 153f4a5c2f5a44748b0bd920bd1fe0ff
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: e3f999c3abbcc41c99f610f88fbd07bd, type: 2}
     Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 5d38af9b0bb79f242a67cf0b7307cace, type: 2}
