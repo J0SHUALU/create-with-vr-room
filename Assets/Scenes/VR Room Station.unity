@@ -807,7 +807,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 33489028}
   m_Enabled: 1
-  m_Alpha: 0
+  m_Alpha: 1
   m_Interactable: 0
   m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
@@ -2193,7 +2193,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: "<color=#A8A8A0>\u25A1  01  Open the glass door</color>\n<color=#A8A8A0>\u25A1 
+    02  Dock the flashlight</color>\n<color=#A8A8A0>\u25A1  03  Set a piece on the
+    board</color>\n<color=#A8A8A0>\u25A1  04  Serve the mug on the coaster</color>\n<color=#A8A8A0>\u25A1 
+    05  Power up the projector</color>\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d305a34069cce41edab440efdf47806a, type: 2}
   m_sharedMaterial: {fileID: 7756940063564047756, guid: d305a34069cce41edab440efdf47806a, type: 2}
@@ -33506,7 +33509,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1751422445}
   m_Enabled: 1
-  m_Alpha: 0
+  m_Alpha: 1
   m_Interactable: 0
   m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
@@ -34339,7 +34342,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1778562581}
   m_Enabled: 1
-  m_Alpha: 0
+  m_Alpha: 1
   m_Interactable: 0
   m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
@@ -37290,7 +37293,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1883406214}
   m_Enabled: 1
-  m_Alpha: 0
+  m_Alpha: 1
   m_Interactable: 0
   m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
@@ -38824,7 +38827,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2001354602}
   m_Enabled: 1
-  m_Alpha: 0
+  m_Alpha: 1
   m_Interactable: 0
   m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
