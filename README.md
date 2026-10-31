@@ -16,7 +16,7 @@ Build order: Start, Joshua Room, VR Room Station.
 
 1. Open the project in Unity 6000.4.7f1 with Android Build Support.
 2. Open Assets/Scenes/Start.unity.
-3. Quest over Link: press Play. Standalone Quest: File > Build Profiles > Android > Build And Run.
+3. Quest over Link: press Play. Standalone Quest: File > Build Profiles > Meta Quest > Build And Run, saved to Builds/MetaQuest2/VR_Room_MetaQuest2.apk.
 4. Without a headset, enable the XR Interaction Simulator in the Living Room scene.
 
 ## Controls
@@ -25,9 +25,9 @@ Build order: Start, Joshua Room, VR Room Station.
 | --- | --- |
 | Grip | Grab objects, the doorknob and the projector |
 | Trigger | Select UI, activate held objects (TV remote) |
-| Left thumbstick | Smooth turn |
+| Left thumbstick | Walk in the direction you push, relative to where you look |
 | Right thumbstick | Snap turn |
-| Primary button or thumbstick touch | Show the teleport ray, release to teleport |
+| X / A, or right thumbstick touch | Show the teleport ray; squeeze grip on that hand to teleport |
 | Y (left) | Open or close the ring menu |
 | B (right), Living Room | Reset panel |
 

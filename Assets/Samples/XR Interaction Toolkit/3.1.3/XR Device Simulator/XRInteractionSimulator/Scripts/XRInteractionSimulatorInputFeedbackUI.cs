@@ -232,7 +232,7 @@ namespace UnityEngine.XR.Interaction.Toolkit.Samples.DeviceSimulator
         protected void Start()
         {
 #if HAS_FIND_FIRST_OBJECT_BY_TYPE
-            var simulator = Object.FindFirstObjectByType<XRInteractionSimulator>();
+            var simulator = Object.FindAnyObjectByType<XRInteractionSimulator>();
 #else
             var simulator = Object.FindObjectOfType<XRInteractionSimulator>();
 #endif
